@@ -1,0 +1,25 @@
+﻿{
+  "$type": "Sitecore.Commerce.Core.PolicySet, Sitecore.Commerce.Core",
+  "Id": "Entity-PolicySet-VertexPolicySet",
+  "Version": 1,
+  "IsPersisted": false,
+  "Name": "VertexPolicySet",
+  "Policies": {
+    "$type": "System.Collections.Generic.List`1[[Sitecore.Commerce.Core.Policy, Sitecore.Commerce.Core]], mscorlib",
+    "$values": [
+      {
+        "$type": "Sitecore.Commerce.Plugin.Pricing.Vertex.Policies.VertexClientPolicy, Sitecore.Commerce.Plugin.Pricing.Vertex",
+        "CompanyCode": "",
+        "UserName": "",
+        "Password": "",
+        "StreetAddress1": "",
+        "StreetAddress2": "",
+        "City": "",
+        "MainDivision": "",
+        "SubDivision": "",
+        "PostalCode": "",
+        "Country": ""
+      }
+    ]
+  }
+}
